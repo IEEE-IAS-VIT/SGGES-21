@@ -391,16 +391,20 @@ body{
 #pl:hover{
     transform: scale(1.05);
 }
-#logo img{
-    max-width:60% ;
+#logo img, #logo2 img{
+    max-width: 60% ;    
+}
+#logo{
+    text-align: start;
+}
+#logo2{
+    text-align: end;
 }
 .col h4
 {
-    font-weight: bold;
-    padding:3%;
-    color:#EF3C43;
-    margin-left: 25%;
-    padding-top: 10% ;
+     font-weight: bold;
+     color:#EF3C43;
+     padding-top: 10% ;
 }
 
 @media (max-width: 1199px){
@@ -442,8 +446,6 @@ body{
         text-align: center;
     }
     .col h4{
-        padding:3%;
-        color:#EF3C43;
         margin-left: 5%;     
     }
     .one{   
@@ -462,8 +464,11 @@ body{
         flex-direction: column;
         justify-content: center;
     }
-    #logo img{
+    #logo img, #logo2 img{
         max-width: 55%;    
+    }
+    #logo, #logo2{
+        text-align: center;
     }
 }
       
