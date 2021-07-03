@@ -16,14 +16,14 @@ function myFunction2()
     document.getElementById("pop").className="main4 shadow";
     document.querySelector("#pop").innerHTML="<p><b>Dr. Razia Sultana W.</b><br> Associate professor<br>Department of Energy & Power Electronics School of Electrical Engineering<br>VIT Vellore, India<br> E-Mail: wraziasultana@vit.ac.in <br>Mobile:+91 9943295041</p><br>";
 }
-document.getElementById("c1").addEventListener("click",myFunction2);
-function myFunction2()
+document.getElementById("c1").addEventListener("click",myFunction3);
+function myFunction3()
 {
     document.getElementById("pop").className="main4 shadow";
     document.querySelector("#pop").innerHTML="<p><b>Dr. Razia Sultana W.</b><br> Associate professor<br>Department of Energy & Power Electronics School of Electrical Engineering<br>VIT Vellore, India<br> E-Mail: wraziasultana@vit.ac.in <br>Mobile:+91 9943295041</p><br>";
 }
-document.getElementById("c2").addEventListener("click",myFunction2);
-function myFunction2()
+document.getElementById("c2").addEventListener("click",myFunction4);
+function myFunction4()
 {
     document.getElementById("pop").className="main4 shadow";
     document.querySelector("#pop").innerHTML="<p><b>Dr. Razia Sultana W.</b><br> Associate professor<br>Department of Energy & Power Electronics School of Electrical Engineering<br>VIT Vellore, India<br> E-Mail: wraziasultana@vit.ac.in <br>Mobile:+91 9943295041</p><br>";
