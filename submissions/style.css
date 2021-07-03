@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700");
+
+/*********** Heading Styles ************/
+
+.section-intro {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-intro h2 {
+    font-size: 26px;
+}
+
+@media (min-width: 600px) {
+    .section-intro h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 567px) {    
+    .section-intro img{
+        width: 50% !important;
+    }
+}
+
+/*********** Navbar Styles ************/
+
+.nav-item{
+    text-align: center;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    float: left;
+}
+.logo img {
+    height: 65px;
+    padding: 7px 0;
+}
+.container-fluid{
+    background-color: #141A2E;   
+    border-bottom: 2px solid #EF3C43; 
+}
+
+@media (max-width: 650px){
+    .container-fluid{
+        padding: 0 10px 0 0; 
+    }
+    .xsd{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+
+nav li a{
+    font-size: 110%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(219, 218, 228);    
+}
+nav li a:hover{
+    color: white !important;
+    font-weight: 600;
+}
+.nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.nav-link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #EF3C43;
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.nav-link:hover:before, .nav-link:focus:before, .nav-link:active:before {
+    left: 0;
+    right: 0;
+}
+
+/*********** Photo Carousel Styles ************/
+
+.first{
+    text-align: center; 
+    padding: 11% 0;
+}
+
+.first > h1{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.first > p{
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.card .card-img{
+    height: 600px;
+    width: auto;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+div.card-title{
+    color:rgb(247, 241, 243);
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+div.card-text{
+    color:rgb(247, 241, 243);
+    font-weight: 850;
+    font-size: 30px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+@media (max-width: 991px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 5% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 3% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 567px) {
+    .card .card-img{   
+        height: 250px;      
+    }
+    .first{   
+        padding: 0;     
+    }
+    .first > h1{   
+        font-size: 2em;     
+    }
+    .first > p{   
+        font-size: 0.8em;   
+    }
+
+    div.card-title{
+        font-weight: 300;
+        font-size: 14px;
+    }    
+    div.card-text{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .card-img-overlay{
+        padding: 0.4rem;
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
+}
+
+/*********** Important Dates Styles ************/
+
+td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%;
+}
+
+#dates{
+    margin: 0 auto;
+    width: 70%;
+}
+
+@media (max-width: 992px){
+    #dates{    
+        width: 100%;       
+    }
+}
+
+@media (max-width: 767px){
+    #dates{    
+        width: 100%;       
+    }
+}
+
+@media (max-width: 567px) {
+    #dates{    
+        width: 100%;       
+    }
+    td, tfoot, th, thead, tr {
+        padding: 4%;
+    }
+}
+
+/*********** Topics of Research Styles ************/
+
+.schedule-content {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .schedule-content {
+        padding: 10px 40px;
+    }
+}
+
+.schedule-card {
+    background: #dbd9d9;
+    margin-bottom: 30px;
+}
+
+.schedule-card p {
+    margin-bottom: 0;
+}
+
+.schedule-card:last-child {
+    margin-bottom: 0;
+}
+
+.tab-pane.active {
+    animation: slide-down .5s ease-out;
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*********** Footer Styles ************/
+
+.col h2{
+    color: white;
+}
+
+/*********** Other Styles ************/
+
+body {
+    background: url('../assets/309051.jpg');
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #faf8f8 !important;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #242424;
+    line-height: 1.5;
+}
+h1, .h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+h2, .h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+h3, .h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+
+.primary-text {
+    color: #11264B;
+}
+.primary-text2 {
+    color: #EF3C43;
+}
+.primary-bg {
+    background-color: #11264B;
+}
+
+.button {
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 54px;
+    border-radius: 4px;
+    color: #242424;
+    border: 1px solid ;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+button:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.button:hover {
+    background: #141A2E;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .button {
+        font-size: 13px;
+        padding: 9px 24px;
+    }
+}
+
+/*********** Go To Top Button Styles ************/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}  
+
+#myBtn:hover {
+      fill: #000000;
+      background-color: #faf8f8;
+      padding: 0.1rem;
+}
+
+/*********** Scrollbar Styles ************/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background:#ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #141A2E;
+    border-radius: 5px;
+}
+
+
+
+.col h4 {
+    font-size: calc(1.275rem + .3vw);
+    line-height: 1.2;
+}
+.col h2{
+    font-weight: initial;
+}
+@media (min-width: 1200px){
+    .col h4 {
+        font-size: 1.5rem;
+    }   
+}

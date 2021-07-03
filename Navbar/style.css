@@ -1,0 +1,33 @@
+#navbarSupportedContent a:hover
+{
+    color: rgb(21, 94, 153);
+}
+
+.logo img {
+    height: 65px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid1{
+    background-color: rgb(231, 241, 238);
+    
+}
+nav li a{
+    font-size: 110%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(9, 119, 77);
+    
+    
+}
+
+
+
+
+
+
+
+
+
