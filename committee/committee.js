@@ -16,10 +16,4 @@ function myFunction2()
     document.getElementById("pop").className="main4 shadow";
     document.querySelector("#pop").innerHTML="<p><b>Dr. Razia Sultana W.</b><br> Associate professor<br>Department of Energy & Power Electronics School of Electrical Engineering<br>VIT Vellore, India<br> E-Mail: wraziasultana@vit.ac.in <br>Mobile:+91 9943295041</p><br>";
 }
-function myFunction3(){
-                document.getElementById("demo").innerHTML="Hello world";
-            }
-            function myFunction4(){
-                document.getElementById("dem").innerHTML="Hello world";
-            }
-  
+
