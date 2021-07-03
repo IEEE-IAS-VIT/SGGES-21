@@ -27,6 +27,6 @@ document.getElementById("b5").addEventListener("click",myFunction4);
 function myFunction4()
 {
     document.getElementById("organizers").className="main4 shadow";
-    document.querySelector("#organizers").innerHTML="<p><b>Nupoor Raj</b><br><b>Fatema Malik</b><br><b>Yash Agarwal</b><br><b>Davya Vuyyuru</b><br><b>Amisha Rathore</b><br><b>Raunak Shukla</b><br><b>Harshita Suresh</b><br><b>Hem Prasath</b><br>Jaydev Jangiti</b><br><b>Tanay Shukla<br></b></p>";
+    document.querySelector("#organizers").innerHTML="<p><b>Nupoor Raj</b><br><b>Fatema Malik</b><br><b>Yash Agarwal</b><br><b>Davya Vuyyuru</b><br><b>Amisha Rathore</b><br><b>Raunak Shukla</b><br><b>Harshita Suresh</b><br><b>Hem Prasath</b><br><b>Jaydev Jangiti</b><br><b>Tanay Shukla<br></b></p>";
 }
 
